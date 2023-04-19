@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+<form>
+  <input type="email" #email />
+  <input type="password" #password />
+  <button [disabled]="isLoggedIn" (click)="login(email.value, password.value)">
+    Submit
+  </button>
+</form>
