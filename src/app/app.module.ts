@@ -14,7 +14,7 @@ import { TitleCasePipe } from './title-case.pipe';
     TitleCasePipe,
   ],
   imports: [BrowserModule],
-  providers: [],
+  providers: [AppComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
